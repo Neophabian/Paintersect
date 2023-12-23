@@ -1,0 +1,97 @@
+
+/* CSS rules for mobile devices */
+@media only screen and (max-width: 600px)
+{
+    
+}
+
+/* Regular rules*/
+
+body{
+    margin:0px;
+    padding:0;
+    background-image:url(pics/jon-moore-5fIoyoKlz7A-unsplash.jpg);
+    background-repeat:repeat;
+}
+
+
+
+.topnav {
+    position:sticky;
+    overflow:hidden;
+    background-color: black;
+}
+
+.topnav a{
+    float:left;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: white;
+}
+
+.topnav a:hover{
+    font-size: 1.1em;
+    background-color:grey;
+}
+
+
+button{
+    position:relative;
+
+}
+
+button:hover{
+    position:relative;
+    font-size: 1.1em;
+
+}
+
+.paint{
+    
+    background-image:url('pics/cover1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:fixed;
+    display:inline-block;
+}
+
+.img1{
+    
+    background-size:cover;
+    width:100%;
+    
+
+    
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    height:50%;
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+    margin-left:25%;
+    position:relative;
+    
+}
+
+.swiper{
+    width:80%;
+    height:fit-content;
+  }
+
+.swiper-slide img{
+    width:100%;
+  }
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color:#fff;
+
+}
+
+.swiper .swiper-pagination-bullet-active{
+  background:#fff;
+}
