@@ -27,7 +27,7 @@ body{
 .topnav {
     position:sticky;
     overflow:hidden;
-    background-color: black;
+    background-color: rgba(59, 58, 58, 0.199);
 }
 
 .topnav a{
@@ -35,6 +35,9 @@ body{
     text-align:center;
     padding: 14px 16px;
     text-decoration: white;
+}
+.topnav a ::after{
+    text-decoration:white;
 }
 
 .topnav a:hover{
@@ -119,4 +122,10 @@ ul{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+ul li{
+    color:rgb(202, 199, 199);
+}
+p{
+    color:rgb(202, 199, 199);
 }
