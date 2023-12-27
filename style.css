@@ -2,6 +2,14 @@
 /* CSS rules for mobile devices */
 @media only screen and (max-width: 600px)
 {
+    .container{
+    
+    
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+}
     
 }
 
@@ -56,14 +64,9 @@ button:hover{
 }
 
 .img1{
-    
-    background-size:cover;
+    height:75%;
     width:100%;
-    
-
-    
 }
-
 
 /* Slideshow container */
 .slideshow-container {
@@ -95,13 +98,25 @@ button:hover{
 .swiper .swiper-pagination-bullet-active{
   background:#fff;
 }
-.container{
+.ccontainer{
     
+    margin:50px auto;
+    max-width:75%;
+    padding: 8px;
+    
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+.prod{
+    width:200px;
+    height:200px;
+}
+.box{
     display:flex;
-    flex-wrap:wrap;
-    align-items: center;
-    justify-content: center;
-   
-    position:relative;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
