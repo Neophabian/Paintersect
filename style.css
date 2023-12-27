@@ -27,7 +27,7 @@ body{
 .topnav {
     position:sticky;
     overflow:hidden;
-    background-color: rgba(59, 58, 58, 0.199);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .topnav a{
@@ -35,9 +35,11 @@ body{
     text-align:center;
     padding: 14px 16px;
     text-decoration: white;
+    color:white;
 }
 .topnav a ::after{
     text-decoration:white;
+    color:white;
 }
 
 .topnav a:hover{
@@ -145,3 +147,6 @@ p{
     width:800px;
 }
 
+p{
+    text-align: center;
+}
