@@ -106,6 +106,9 @@ button:hover{
     margin:50px auto;
     max-width:75%;
     padding: 8px;
+    justify-content:space-around;
+    display:flex;
+    flex-wrap:wrap;
     
 }
 
@@ -127,5 +130,18 @@ ul li{
     color:white;
 }
 p{
-    color:rgb(202, 199, 199);
+    color:white;
 }
+
+.container{
+    justify-content:space-around;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+.reptar{
+    height:600px;
+    width:800px;
+}
+
