@@ -141,16 +141,15 @@ p{
     flex-wrap:wrap;
     
 }
-
 .reptar{
     height:600px;
     width:800px;
 }
-
 p{
     text-align: center;
     margin:20px;
 }
+
 a{
     color:#fff;
     text-align: center;
