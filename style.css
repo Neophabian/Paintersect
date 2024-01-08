@@ -8,9 +8,20 @@
     align-items: center;
     justify-content: center;
     position:relative;
-    
 }
+    .ccontainer{
     
+        margin:25px auto;
+        max-width:75%;
+        padding: 2px;
+        justify-content:space-around;
+        display:flex;
+        flex-wrap:wrap;
+    }
+   .reptar{
+    height:300px;
+    width:400px
+   }
 }
 
 /* Regular rules*/
